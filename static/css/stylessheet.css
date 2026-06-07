@@ -26,11 +26,13 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body, .powershell-body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
     background-color: var(--background-color);
     color: var(--text);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -95,6 +97,14 @@ nav {
  align-items: center; 
  gap: 10px; 
  flex-direction: row; 
+}
+
+.powershell-project {
+    padding: 60px 32px;
+}
+
+.powershell-intro {
+    padding: 60px 32px;
 }
 
 /*Project cards — carousel layout*/
