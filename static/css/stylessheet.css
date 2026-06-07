@@ -75,6 +75,7 @@ nav {
 
 .nav-link {
     color: var(--accent);
+    text-decoration: none; 
 }
 .nav-link:hover {
      text-shadow: 0 0 8px var(--text),
